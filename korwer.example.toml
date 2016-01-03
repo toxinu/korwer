@@ -1,0 +1,9 @@
+[settings]
+port = 5556
+
+[[site]]
+name = "socketubs.org"
+path = "/home/glehee/Repositories/socketubs.github.io"
+secret = "my-webhook-or-simple-secret"
+build_cmd = "/usr/bin/git pull && /home/glehee/.rvm/gems/ruby-2.2.1/bin/jekyll"
+deploy_cmd = "scp /"
